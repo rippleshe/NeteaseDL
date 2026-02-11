@@ -35,7 +35,11 @@
   },
   "include": [
     "src",
+    "vite-env.d.ts"
+  ],
+  "exclude": [
     "api",
-    "server"
+    "server",
+    "node_modules"
   ]
 }

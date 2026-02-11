@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "NodeNext",
+    "target": "ESNext",
+    "lib": ["ESNext"],
+    "types": ["node", "express"],
+    "noEmit": true,
+    "composite": false,
+    "tsBuildInfoFile": null,
+    "allowImportingTsExtensions": false
+  },
+  "include": ["api", "server"],
+  "exclude": ["src", "node_modules"]
+}
